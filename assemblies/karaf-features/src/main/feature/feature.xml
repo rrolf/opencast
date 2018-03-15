@@ -188,6 +188,7 @@
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-mhConnection/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-notifications/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-piwik/${project.version}</bundle>
+    <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-logging/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-usertracking/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-description/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-tab-description/${project.version}</bundle>
@@ -411,6 +412,7 @@
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-mhConnection/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-notifications/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-piwik/${project.version}</bundle>
+    <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-logging/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-usertracking/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-description/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-tab-description/${project.version}</bundle>
@@ -672,6 +674,7 @@
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-mhConnection/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-notifications/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-piwik/${project.version}</bundle>
+    <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-logging/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-custom-usertracking/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-description/${project.version}</bundle>
     <bundle start-level="83">mvn:org.opencastproject/matterhorn-engage-theodul-plugin-tab-description/${project.version}</bundle>
