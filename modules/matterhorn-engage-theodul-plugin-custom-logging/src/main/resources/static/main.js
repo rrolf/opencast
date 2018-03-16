@@ -100,12 +100,10 @@ define(["jquery", "underscore", "backbone", "basil", "engage/core"], function($,
     }
 
     function logAction() {
-        console.log("Trying to log zoom");
         if (! eventID) {
           if (Engage && Engage.model && Engage.model.get('mediaPackage'))
             eventID = Engage.model.get('mediaPackage').get('eventid');
           else {
-            console.log("could not get EventID");
             return;
           }
         }
