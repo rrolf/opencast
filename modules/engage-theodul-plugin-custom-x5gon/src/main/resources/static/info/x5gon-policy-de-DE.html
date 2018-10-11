@@ -1,0 +1,53 @@
+<!DO  CTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <title>X5gon User-Tracking Informationen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <img src="https://www.x5gon.org/wp-content/themes/x5gon/dist/assets/img/logo.svg" alt="X5GON" width="300px">
+    <h1>X5gon User-Tracking Informationen</h1>
+
+    <p>Auf dieser Seite ist die Software <a href="https://www.x5gon.org/">X5gon</a> eingebunden. Mithilfe dieser Software
+      sollen freie Bildungsressourcen (Open Educational Ressources - OER) gefunden und indiziert werden.</p>
+
+    <p>Zusätzlich sollen Nutzern basierend auf ihren Interessen, geeignete OERs vorgeschlagen werden können.</p>
+
+    <p>Um mit X5gon OERs zu suchen gehen sie bitte auf: <a href"https://platform.x5gon.org/search">https://platform.x5gon.org/search</a></p>
+
+    <p>Der auf dieser Seite eingebundene X5gon Code übermittelt folgende Daten bei ihrem Besuch:
+      <ul>
+        <li><b>userId</b>: Mit diesem Attribut wird der Benutzer identifiziert der auf das OER Material zugreift.
+          Die ID wird von der X5gon Plattform erstellt und hat das folgende Format: <zufällige Nummer>X<Zeitstempel>.
+          Ein typisches Beispiel würde folgendermaßen aussehen: 41731408528951275X1524236028520.
+          Diese Form der ID stellt sicher das Niemand, auch nicht das X5gon Projekt den Benutzer direkt identifizieren kann.
+          Diese Information ist aber ausreichend um einen Benutzer über eine Session hinweg erneut zu identifizieren um
+          personalisierte Empfehlungen geben zu können.</li>
+        <li><b>materialURL</b>: Dieser Wert ist eine Identifikation für das Material das der Benutzer besucht hat.
+          Es wird dafür genutzt Inhalte für den Suchindex zu gewinnen und weiterhin auch für die Generierung von
+          Empfehlungen und Learning Analytics. Die gewonnenen Inhalte werden angereichert und die angereicherten Metadaten
+          werden in der X5gon Datenbank gespeichert. Die Quellen selber werden aber nicht gespeichert. </li>
+        <li><b>referrerURL</b>: Diese URL ist der Link über den der Benutzer auf diese Seite gekommen ist. Diese
+          Information wird analysiert um Muster im Lernverhalten des Benutzers zuerkennen und basierend auf dem Verhalten
+          anderer Nutzer Empfehlungen geben zu können.</li>
+        <li><b>accessDate</b>: Der Zeitpunkt zu dem auf die URL zugegriffen wurde. Diese Information wird dafür genutzt
+          um ferstzustellen, ob der Nutzer seine Interessen geändert hat.</li>
+        <li><b>userAgents</b>: Dieses Attribut enthät informationen darüber welche Technologie der Nutzer beim Zugriff auf
+          das Material genutzt hat. Da auch viele Bots genutzt werden, wird diese Information benötigt um festzustellen, ob
+          der Zugriff von einem normalen Nutzer oder einer Suchmaschine erfolgte und so fehlerhafte Daten auszusortieren.</li>
+        <li><b>location</b>: Die IP-Adresse des Nutzers, die dafür genutzt wird den Ort festzustellen. Diese Information
+          wird dafür benötigt das Benutzerprofil and kulturelle Eigenschaften anzupassen, die geografisch beeinflussed sein
+          können. Die IP-Adresse wird nicht in der Datenbank gespeichert, im Gegensatz zu der ermittelten Region.</li>
+      </ul>
+    </p>
+
+    <p>Wenn sie eine Auskunft zu ihren Daten benötigen, oder ihre Daten löschen lassen möchten,
+      wenden sie sich bitte an: <a href="mailto:info@x5gon.org">info@x5gon.org</a> </p>
+  </body>
+</html>

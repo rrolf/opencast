@@ -1,0 +1,58 @@
+<!DO  CTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <title>X5gon User-Tracking Information</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <img src="https://www.x5gon.org/wp-content/themes/x5gon/dist/assets/img/logo.svg" alt="X5GON" width="300px">
+    <h1>X5gon User-Tracking Information</h1>
+
+    <p>This page uses the software <a href="https://www.x5gon.org/">X5gon</a>. With this software Open Educational
+      Ressources (OER) can be found and indexed.</p>
+    <p>Additionally information will be collected to created individualized recommendations of OER for the current user</p>
+
+    <p>To search OERs with X5gon, you can use this site: <a href"https://platform.x5gon.org/search">https://platform.x5gon.org/search</a></p>
+
+    <p>The code on this site submits this data to the X5gon servers:
+      <ul>
+        <li><b>userId</b>: This attribute identifies which user is accessing the OER material. It
+will be created on the X5GON Platform; the id is going to be of the following
+format: randomNumberXtimestamp. A typical example will look like
+something like this: 41731408528951275X1524236028520. This id creation
+method will ensure no one (including us) will be able to identify the user
+directly. But it will be sufficient for us to save his or her activity data over
+sessions, which will be used for creating personalized recommendations.</li>
+        <li><b>materialURL</b>: This value is the material identifier and the link which the user
+visited. It will be used to acquire the material and within the recommendation
+engine and learning analytics. The acquired material will be enriched and the
+found enrichment metadata will be stored in the X5GON platform database –
+the material will NOT be stored. Next, when we recommend materials to the
+user, the URL will be used as the link to direct the user to the material of
+interest.</li>
+        <li><b>referrerURL</b>: This URL is the link from which the user arrived to the material.
+It will be used to analyse user learning patterns and to recommend them to
+other users if it turns out they were insightful.</li>
+        <li><b>accessDate</b>: The date at which the material accessed. This information helps
+          us to create timelines and determine if users change their interests.</li>
+        <li><b>userAgents</b>: This attribute will contain the information about the technology
+the user used to access the material. Due to the large usage of bots we will
+use this information to determine and validate which request or access of the
+material was done by the user and doesn’t correspond to a crawling bot –
+removing noise from the activity data.</li>
+        <li><b>location</b>: The IP address of the user – which will be used to acquire the
+location of the user. The location can be used to adapt to cultural interests
+which can be geographically influenced. The user IP will NOT be stored in our
+database while the extracted location will be stored and used in our analysis.</li>
+      </ul>
+    </p>
+
+    <p>To inquire about the data that is stored about you, or to delete your data please contact: <a href="mailto:info@x5gon.org">info@x5gon.org</a> </p>
+  </body>
+</html>
